@@ -1,0 +1,22 @@
+
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.btn{
+    padding: .8rem 3rem;
+    background-color: rgba(255, 166, 0, 0.589);
+    color: orangered;
+    border: transparent;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: lightslategrey;
+    color: lightyellow;
+    transition: all .6s ease-out;
+}

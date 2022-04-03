@@ -1,0 +1,85 @@
+@import url(/css/utilities.css);
+
+body{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    border: 0;
+    background-color: rgba(255, 68, 0, 0.247);
+}
+.top-banner{
+   
+    background-repeat: no-repeat;
+}
+.top-banner .left{
+    margin: 4rem 5% 0 5%;
+    width: 50%;
+}
+.top-banner .left h1{
+    margin-top: 2rem;
+    color: rgb(169, 169, 169);
+    font-weight: 1000;
+}
+.top-banner .left h3{
+    color: rgb(221, 187, 37);
+    font-weight: 900;
+}
+.top-banner .left button a{
+    text-decoration: none;
+    color: orangered;
+    font-weight: 600;
+}
+.top-banner .left .skt{
+    color: orange;
+}
+.top-banner .left p{
+    color: darkorange;
+    font-weight: 600;
+}
+.top-banner .right{
+    width: 30%;
+    margin: 0 5%;
+}
+.top-banner .right img{
+    width: 100%;
+}
+.top-banner .left .svg{
+    margin: 0 30%;
+}
+.top-banner .left .svg img{
+    width: 50px;
+    padding: .5rem 2rem;
+  
+}
+section.last-part{
+    margin: 3%;
+    text-align: center;
+    background: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+section.last-part .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1% 5% 1% 5%;
+    grid-column-gap: 2rem;
+}
+section.last-part .card-wrapper .card{
+    background-color: lightyellow;
+    padding: 2rem;
+    border-radius: 7px;
+}
+section.last-part h1{
+    color: rgb(255, 145, 0);
+}
+section.last-part .card h3{
+    color: tomato;
+    text-transform: capitalize;
+}
+section.last-part .card h4{
+    color: rgb(160, 142, 160);
+    text-align: left;
+}
+section.last-part .card p{
+    font-weight: 400;
+    text-align: left;
+    justify-content: space-between;
+}
